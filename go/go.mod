@@ -23,8 +23,7 @@ require (
 	github.com/blevesearch/segment v0.8.0 // indirect
 	github.com/btcsuite/btcutil v0.0.0-20180706230648-ab6388e0c60a
 	github.com/buger/jsonparser v0.0.0-20180131123142-4be68c93a244
-	github.com/coreos/go-systemd v0.0.0-20170731111925-d21964639418
-	github.com/coreos/pkg v0.0.0-20170901145554-459346e834d8 // indirect
+	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e
 	github.com/couchbase/vellum v1.0.0 // indirect
 	github.com/cznic/b v0.0.0-20181122101859-a26611c4d92d // indirect
 	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548 // indirect
@@ -47,8 +46,9 @@ require (
 	github.com/go-sql-driver/mysql v1.5.1-0.20200311113236-681ffa848bae
 	github.com/gobwas/glob v0.2.4-0.20181002190808-e7a84e9525fe // indirect
 	github.com/gocolly/colly v1.1.1-0.20190204140905-b3032e87d3ef // indirect
-	github.com/golang/groupcache v0.0.0-20181024230925-c65c006176ff
+	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef
 	github.com/golang/mock v1.2.1-0.20181221212429-e698a2ea17fe
+	github.com/golangci/golangci-lint v1.26.0
 	github.com/google/go-cmp v0.4.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.0
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
@@ -117,18 +117,18 @@ require (
 	github.com/willf/bitset v1.1.11-0.20190404145324-77892cd8d53f // indirect
 	github.com/xanzy/ssh-agent v0.2.0 // indirect
 	go.etcd.io/bbolt v1.3.3 // indirect
-	go.uber.org/atomic v1.3.3-0.20181018215023-8dc6146f7569 // indirect
 	go.uber.org/multierr v1.1.1-0.20180122172545-ddea229ff1df // indirect
-	go.uber.org/zap v1.9.2-0.20180814183419-67bc79d13d15
+	go.uber.org/zap v1.10.0
 	go4.org v0.0.0-20161118210015-09d86de304dc // indirect
 	golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59
 	golang.org/x/image v0.0.0-20190802002840-cff245a6509b
+	golang.org/x/lint v0.0.0-20200302205851-738671d3881b
 	golang.org/x/mobile v0.0.0-20200329125638-4c31acba0007
-	golang.org/x/net v0.0.0-20190827160401-ba9fcec4b297
+	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
-	golang.org/x/sys v0.0.0-20190909082730-f460065e899a
+	golang.org/x/sys v0.0.0-20191120155948-bd437916bb0e
 	golang.org/x/text v0.3.2
-	golang.org/x/time v0.0.0-20181108054448-85acf8d2951c
+	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2
 	gopkg.in/src-d/go-git-fixtures.v3 v3.5.0 // indirect
